@@ -12,4 +12,8 @@ public class Document {
     private String description;
     private String author;
     private String publisher;
+
+    public Long getId() {
+        return this.id;
+    }
 }
