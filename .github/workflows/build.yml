@@ -103,7 +103,7 @@ jobs:
         run: kubectl get nodes
       - name: Deploy the image to minikube
         run: |
-          docker pull blacour05/spring-rag:latest
+          docker pull fenyx13/spring-rag:latest
           kubectl apply -f src/main/k8s/deployment.yml
       - name: Get Kubernetes service URL
         run: |
